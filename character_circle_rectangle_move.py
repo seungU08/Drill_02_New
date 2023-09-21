@@ -6,16 +6,25 @@ grass = load_image('grass.png')
 character = load_image('character.png')
 
 def run_circle():
+    print('CIRCLE')
+
+    #일단 그림을 그리자
+    clear_canvas_now()
+    grass.draw_now(400,300)
+    character.draw_now(400,90)
+    delay(1)
+    
     pass
 
-def run_ractangle():
+def run_rectangle():
+    print('RECTANGLE')
     pass
 
 
 
 while True:
     run_circle()
-    run_ractangle()
+    run_rectangle()
     
 
 close_canvas()
