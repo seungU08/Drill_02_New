@@ -30,8 +30,8 @@ def run_rectangle():
     for x in range(50,750 +1,10):
         render_frame(x , 90)
         
-    for x in range(750,50 +1,-10):
-        render_frame(x , 90)
+    for x in range(750,50 -1,-10):
+        render_frame(x , 550)
 
 
     pass
@@ -39,7 +39,7 @@ def run_rectangle():
 
 
 while True:
-    run_circle()
+    #run_circle()
     run_rectangle()
     break
 
