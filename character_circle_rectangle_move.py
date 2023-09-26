@@ -45,4 +45,3 @@ while True:
     run_circle()
     run_rectangle()
 
-close_canvas()
